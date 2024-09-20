@@ -1,8 +1,4 @@
-import 'source-map-support/register';
-import {
-    APIGatewayProxyEvent,
-    APIGatewayProxyResult
-} from "aws-lambda";
+import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
 
 // Create clients and set shared const values outside of the handler.
 import CustomSqsClient from '../utils/sqs';
